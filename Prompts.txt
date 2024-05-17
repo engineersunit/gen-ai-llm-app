@@ -1,0 +1,8 @@
+I am a developer. I am developing a LLM based chat bot application. I am using python programming language to develop the application. Next I am providing the import statements of my program here. Please explain me what they are and why they are used ?
+
+
+from langchain_core.prompts import PromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.prompts import HumanMessagePromptTemplate
+from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_community.llms import OCIGenAI
