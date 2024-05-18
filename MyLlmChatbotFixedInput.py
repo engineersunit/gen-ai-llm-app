@@ -9,5 +9,5 @@ llm = OCIGenAI(
     model_kwargs={"max_tokens": 256}
 )
 
-response = llm.invoke("Who is Sunit Ghosh", temperature=0.5)
+response = llm.invoke("Who is Sunit Ghosh?", temperature=0.5)
 print("Fixed Text Response => " + response)
